@@ -8,3 +8,4 @@ print("Print out all numbers from",start,"to",end, "that are not divisible by",d
 for solution in range(0, 99):
   if solution % 7 != 0:
     print(solution)
+ 
