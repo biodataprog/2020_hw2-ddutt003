@@ -27,7 +27,7 @@ def aspairs(f):
             yield seq_id, sequence
 
 
-# download the file
+# download the required file
 
 if not os.path.exists(gff):
     os.system("curl -O ftp://ftp.ensemblgenomes.org/pub/bacteria/release-45/gff3/bacteria_0_collection/escherichia_coli_str_k_12_substr_mg1655/Escherichia_coli_str_k_12_substr_mg1655.ASM584v2.37.gff3.gz")
